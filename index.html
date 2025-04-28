@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM Card Closure Concept</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ATM Card Closure</h1>
+
+      <!-- MPIN Section -->
+      <div class="input-group">
+        <input type="number" id="mpinInput" placeholder="Enter 5-digit MPIN" />
+        <button id="submitMpin" class="submit-button">Submit MPIN</button>
+      </div>
+
+      <!-- Amount Input -->
+      <div class="input-group">
+        <input type="number" id="amountInput" placeholder="Enter Amount" />
+      </div>
+
+      <!-- Balance Display -->
+      <h3 class="balanceDisplay" id="balanceDisplay">0</h3>
+
+      <div class="ATM">
+        <div class="atm-title">
+          <h2>Bank Of Khyber</h2>
+        </div>
+
+        <div class="atm-card-number">
+          <h2>1234 5678 9012 3456</h2>
+        </div>
+
+        <div class="atm-card-holder-name">
+          <h2>Muhammad Bilal</h2>
+        </div>
+
+        <div class="buttons">
+          <button class="button" id="deposit">Deposit</button>
+          <button class="button" id="withdraw">Withdraw</button>
+          <button class="button" id="checkBalance">Check Balance</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
