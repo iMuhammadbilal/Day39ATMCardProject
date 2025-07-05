@@ -49,7 +49,9 @@ function updateBalanceDisplay() {
 }
 
 function verifyMpin() {
-    const enteredMpin = mpinInput.value;
+    const enteredMpin = mpinInput.value; // MPIN entered by the user
+    console.log(`Entered MPIN: ${enteredMpin}`); // Debugging line
+    // Debugging line to check if MPIN is correct
     if (enteredMpin === correctMpin) {
         alert("✅ MPIN Verified Successfully!");
         isMpinVerified = true;
